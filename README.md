@@ -1,30 +1,61 @@
-# ecommerce-sales-data
-This dataset contains information about  top-rated movies from TMDb API. It includes data such as movie titles, ratings, release dates, vote counts, genres, etc. The purpose of this dataset is to help users perform exploratory data analysis.
-📁 File Details
-- **File Name:** movies_dataset.csv
-- **File Size:** 50KB
-- **Number of Rows:** 9800
-- **Number of Columns:** 7
+# 🎬 Top Rated Movies Dataset (TMDb)
+## 📌 Description
+This dataset contains a collection of **top-rated movies** fetched from *The Movie Database (TMDb) API*.  
+It includes key details about movies such as title, rating, release date, popularity score, vote count, and short overview synopsis.
 
-## 🧾 Columns Description
-| Column Name     | Description                          |
-|-----------------|--------------------------------------|
-| title           | Name of the movie                    |
-| vote_average    | Average rating of the movie          |
-| release_date    | Movie release date                   |
-| vote_count      | Total votes by users                 |
-| genre_ids       | List of genre IDs assigned to movie  |
-| ...             | ...                                  |
-
-## 📌 Source
-Data collected from [The Movie Database (TMDb) API].
-
-## 🔔 License
-This dataset is shared under **CC BY-SA 4.0**. Please credit this repository when used.
+The dataset is suitable for:
+- Exploratory data analysis (EDA)
+- Data visualization projects
+- Natural Language Processing (NLP) on movie overviews
+- Machine learning models (e.g., recommendation systems, rating prediction)
 
 ---
 
-### ✨ Example Use Cases
-- Data visualization
-- Machine learning projects
-- Exploratory data analysis
+## 📁 File Information
+- **File Name:** top_rated_movies.csv  
+- **Rows:** 9800  
+- **Columns:** 7  
+- **Format:** CSV (UTF-8)
+
+---
+
+## 🧾 Column Description
+
+| Column Name   | Description |
+|---------------|-------------|
+| `id`          | Unique movie ID from TMDb |
+| `title`       | Movie name/title |
+| `popularity`  | Popularity score based on TMDb metrics |
+| `release_date`| Official release date of the movie |
+| `vote_average`| Average user rating (0–10 scale) |
+| `vote_count`  | Total number of votes cast by users |
+| `overview`    | Short plot summary / movie description |
+
+---
+
+## 🔗 Source
+Data collected using the **TMDb API**  
+API Endpoint used: `/movie/top_rated`  
+✔️ Public & educational use allowed under TMDb API terms
+
+---
+
+## 📜 License
+This dataset is released under **CC BY-SA 4.0**  
+You are free to use it for non-commercial + educational purposes  
+Please give credit by citing this repository.
+
+---
+
+## 💡 Example Use Cases
+✅ Build a movie recommender system  
+✅ Sentiment / text analysis on plot summaries  
+✅ Rank movies by rating, votes, or popularity  
+✅ Visualize rating trends over time  
+✅ Train ML models to predict rating based on metadata
+
+---
+
+## 👩‍💻 Author
+Dataset prepared by hafsa3368  using Python + TMDb API
+
